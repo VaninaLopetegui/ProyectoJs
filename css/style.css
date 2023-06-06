@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* index */
+/* index header */
+.colorHeader {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+.tituloHeader {
+    font-size: 50px;
+}
+.headerNav {
+    background-color: rgb(120, 120, 173);
+    height: 25%;
+}
