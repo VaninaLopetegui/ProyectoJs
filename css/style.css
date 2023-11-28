@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(75, 75, 75);
 }
 
+body {
+    background-color: #D1A4DE;
+}
 
 /* index */
 /* index header */
 .colorHeader {
-    background-color: aqua;
+    background-color: #9FEDFC;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -16,14 +22,97 @@
     width: 100%;
     height: 250px;
 }
-.tituloHeader {
-    font-size: 50px;
-}
-.headerNav {
-    background-color: rgb(120, 120, 173);
-    height: 25%;
+
+.inputSearch {
+    border-radius: 5px solid #CCD1E4;
+    padding: 10px;
+    outline: none;
 }
 
+.colorBotonSearch {
+    background-color: #ACFF8A;
+}
 
+/* icon Header */
+.iconAnimacionHeader {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.iconAnimacionHeader:hover {
+    transform: scale(1.1);
+}
+
+.iconHeader {
+    width: 100%;
+    height: 100%;
+}
 
 /* index main  */
+/* categorias dropdown */
+.dropDownNombre {
+    font-size: 1.5rem;
+}
+
+.categoriasDropContenedor {
+    list-style:none;
+}
+
+.productoCard {
+    background-color: #9FEDFC;
+    display: flex;
+    align-items: center;
+}
+
+/* cards botones */
+.cardBotonVer{
+    background-color: #ACFF8A;
+    color: rgb(75, 75, 75);
+    width: 140px;
+}
+.cardBotonVer:hover{
+    background-color: #96e478fa;;
+    transition: all 1s;
+    transform: scale(0.98);
+}
+
+.filtro {
+    display: none;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+/*--           footer general            --*/
+footer {
+    background-color: black;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+footer ul {
+    list-style: none;
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li{
+    margin: 0px 3% 0px 3%;
+}
+
+.iconsFooter:hover{
+    color: #ACFF8A;;
+    transition: all 1s;
+}
